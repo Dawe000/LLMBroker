@@ -1,0 +1,6 @@
+[submodule "LLMBrokerWebsite"]
+	path = LLMBrokerWebsite
+	url = https://github.com/Dawe000/LLMBrokerWebsite.git
+[submodule "LLMBrokerEndpoint"]
+	path = LLMBrokerEndpoint
+	url = https://github.com/Dawe000/LLMBrokerEndpoint.git
