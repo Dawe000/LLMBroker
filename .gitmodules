@@ -4,3 +4,6 @@
 [submodule "LLMBrokerEndpoint"]
 	path = LLMBrokerEndpoint
 	url = https://github.com/Dawe000/LLMBrokerEndpoint.git
+[submodule "LLMBrokerAPILibrary"]
+	path = LLMBrokerAPILibrary
+	url = https://github.com/Dawe000/LLMBrokerAPILibrary.git
