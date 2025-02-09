@@ -1,7 +1,7 @@
 # LLMBroker
 
 ## Overview
-LLMBroker is a decentralized platform that enables users to run large language model (LLM) inferences on idle computing hardware. By leveraging a distributed network of compute providers, LLMBroker connects those who need LLM services with those who have spare processing power, creating an efficient, cost-effective, and scalable solution.
+LLMBroker is a decentralized platform that enables users to run large language model (LLM) inferences on idle computing hardware. By leveraging a distributed network of compute providers, LLMBroker connects those who need LLM services with those who have spare processing power, creating an efficient, cost-effective, and scalable solution. To ensure fair compensation for compute providers, LLMBroker utilizes the Flare Time Series Oracle (FTSO) to obtain real-time FLR-to-USD price data, stabilizing input token prices within its smart contracts.
 
 ## How It Works
 LLMBroker consists of three core components:
@@ -16,8 +16,11 @@ Smart contracts serve as a decentralized marketplace for LLM tokens. Users can p
 The LLMBroker NPM package simplifies interaction with the smart contract marketplace. It abstracts token purchasing, server discovery, and request handling into an easy-to-use JavaScript library. This package is also integrated into the server code for seamless operation.
 
 ## Key Features
+Key Features
+
 - **Decentralized Compute Sharing** – Utilize idle GPUs and CPUs for LLM inference tasks.
 - **Smart Contract Marketplace** – Secure and transparent token-based payment system.
+- **Real-Time Price Stabilization** – Leverages the Flare Time Series Oracle (FTSO) to stabilize token prices for server owners.
 - **Simple API Integration** – Easily connect to LLMBroker services using the NPM package.
 - **Earn Passive Income** – Run LLM inferences and get rewarded for unused compute power.
 - **Scalable & Cost-Effective** – Pay only for the compute you use, with no centralized overhead.
