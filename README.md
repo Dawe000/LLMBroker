@@ -57,5 +57,5 @@ We welcome contributions! Please submit pull requests and open issues to help im
 This project is licensed under the MIT License.
 
 ## Contact
-For more details, visit our [GitHub repository](https://github.com/your-repo) or reach out to us via email at support@llmbroker.io.
+For more details, visit our [GitHub repository](https://github.com/your-repo).
 
