@@ -23,7 +23,32 @@ The LLMBroker NPM package simplifies interaction with the smart contract marketp
 - **Scalable & Cost-Effective** – Pay only for the compute you use, with no centralized overhead.
 
 ## Getting Started
-- Clone the Endpoint directory and configure your chosen LLM (DeepseekR1 is used as default)
+### Setting Up Your Compute Server
+Follow these steps to configure your machine as an LLMBroker compute server:
+
+1. **Clone the Endpoint Repository**  
+   - Download the Endpoint directory and set up your preferred LLM. By default, DeepseekR1 is pre-configured.
+
+2. **Install LLMBroker API Library**  
+   - In your project, install the LLMBroker API library:
+     ```sh
+     npm install llmbrokerapilib
+     ```
+
+3. **Create a Thirdweb Client & Wallet**  
+   - Set up a Thirdweb client and generate a new wallet. 
+
+4. **Deploy Your Server Contract**  
+   - Use the `CreateServer` and `SetupModel` functions from the LLMBroker API library to configure your server with pricing and endpoint details. An example implementation is available in the NPM package repository.
+
+5. **Configure Environment Variables**  
+   - Update the `.env` file in the Endpoint server directory with the following details:
+     - **Wallet Private Key**
+     - **Deployed Server Contract Address**
+     - **Thirdweb Client Details**
+
+6. **Start Earning**  
+   - Once set up, your server is publicly listed, allowing users to request inferences. You can now start earning by providing compute power!
 
 ## Contributing
 We welcome contributions! Please submit pull requests and open issues to help improve LLMBroker.
