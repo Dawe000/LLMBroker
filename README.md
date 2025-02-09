@@ -23,7 +23,7 @@ The LLMBroker NPM package simplifies interaction with the smart contract marketp
 - **Scalable & Cost-Effective** – Pay only for the compute you use, with no centralized overhead.
 
 ## Getting Started
-
+- Clone the Endpoint directory and configure your chosen LLM (DeepseekR1 is used as default)
 
 ## Contributing
 We welcome contributions! Please submit pull requests and open issues to help improve LLMBroker.
