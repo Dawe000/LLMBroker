@@ -15,6 +15,8 @@ Smart contracts serve as a decentralized marketplace for LLM tokens. Users can p
 ### 3. LLMBroker NPM Package
 The LLMBroker NPM package simplifies interaction with the smart contract marketplace. It abstracts token purchasing, server discovery, and request handling into an easy-to-use JavaScript library. This package is also integrated into the server code for seamless operation.
 
+![image](https://github.com/user-attachments/assets/7587f795-038c-47e5-a921-01f2e28f04c7)
+
 ## Key Features
 Key Features
 
